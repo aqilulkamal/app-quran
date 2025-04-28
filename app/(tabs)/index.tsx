@@ -20,7 +20,7 @@ export default function HomeScreen() {
       </View>
 
       <TouchableOpacity style={styles.tombol}>
-        <Text style={styles.tombolTeks} onPress={() => navigation.navigate("surat")}>Mulai Baca Yuk</Text>
+        <Text style={styles.tombolTeks} onPress={() => navigation.navigate("explore")}>Mulai Baca Yuk</Text>
       </TouchableOpacity>
       </View>
     </SafeAreaView>
